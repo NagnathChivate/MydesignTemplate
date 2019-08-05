@@ -1,0 +1,216 @@
+             body{
+/*                background: #FAFAFA;*/
+            }
+            .container-fluid{padding: 0px;}
+            .row{margin: 0px}
+            .pad{padding: 0px;}
+            .inputsrch{
+               width:100%;
+                float: left;
+                margin: 1px;
+                border: 0px;
+                background: transparent;
+                outline: none;
+                height: 35px;
+            }
+            .inputsrchdiv{
+                 background: #a71f23;
+                 padding: 0px;
+            }
+            ::-moz-placeholder{color:#FFF;}
+            ::-webkit-input-placeholder{color:#FFF;}
+            :-moz-placeholder{color:#FFF;}
+            ::-moz-placeholder{color:#FFF;}
+            :-ms-input-placeholder{color:#FFF;}
+            .srchicon{
+                float: left;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                padding-top: 4px;
+                color: #fff;
+                padding-left: 5px;
+                padding-right: 5px;
+                font-size: 17pt;
+/*                background: antiquewhite;*/
+                height: 35px;
+            }
+            .lblhed{
+                padding: 5px;
+                background: #a71f23;
+                width: 100%;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 19pt;
+                margin: 0px;
+            }
+            .logo{
+                width:100%;
+                height: 100px;
+            }
+            .inptdrdiv{
+                display: none;
+            }
+            .btnsplidr{
+                width: 99%;
+                outline: none;
+                border-radius: 0px;
+                margin-left: 2px;
+            }
+            .lblritd{
+                width: 100%;
+            margin: 0px;
+            font-weight: normal;
+            text-align: right;
+            padding-right: 10px;
+            padding-top: 6px;
+            }
+            .lblsplity{
+                margin: 0px;
+                padding: 10px 6px;
+                font-weight: normal;
+                font-size: 10pt;
+            }
+            .splitydiv{
+                background: #FFFFFF;
+                margin-top: 1px;
+                cursor: pointer;
+                box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.1);
+            }
+            .inputspdiv{
+                
+            }
+            .splitydiv:hover{
+                background: #a71f23;
+                color: #FFF;
+            }
+            .leftcolserch{
+                border-right: 1px solid #d3d3d3;
+                height: 84%;
+                background: #F8F8F8;
+/*                position: absolute;*/
+            }
+/*            .rightsplitydiv{
+                
+            }*/
+            .rightdrdiv{
+               width: 600px;
+                margin: 0 auto;
+                margin-top: 8px;
+                border: 1px solid #d3d3d3;
+                padding-bottom: 10px;
+                box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+            }
+            .rightsplictdiv{
+                width: 600px;
+                margin: 0 auto;
+                margin-top: 8px;
+                border: 1px solid #d3d3d3;
+                padding-bottom: 10px;
+                display: none;
+            }
+            .row1dr{
+                
+            }
+            .lbldr{
+                width: 100%;
+                text-align: center;
+                margin: 0px;
+                background: #a71f23;
+                color: #fff;
+                padding: 5px;
+                font-weight: bold;
+                font-size: 18pt;
+            }
+            .innerdrdiv{
+                display: inline-block;
+                width: 100%;
+                padding: 10px;
+            }
+            .splitymaindiv{
+                padding: 0px;
+                overflow: auto;
+            }
+            .drmaindiv{
+                padding: 0px;
+                display: none;
+                overflow: auto;
+            }
+            .imgcontanr{
+                padding: 0px;
+                background: #FFFFFF;
+                display: inline-block;
+                margin: 0px;
+                margin-top: -5px;
+                margin-bottom: 1px;
+                border-radius: 0px;
+                cursor: pointer;
+                width: 100%;
+                cursor: pointer;
+                box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.2);
+            }
+            .imge {
+                width: 45px;
+                height: 45px;
+                display: inline-block;
+                margin: 0;
+                outline: none;
+                margin-top: 5px;
+                margin-left: 5px;
+                border-radius: 50%;
+                border: none;
+                float: left;
+            }
+            .imgcontanr:hover .imge{transform: scale(1.2);}
+            
+            .datacntanr{
+                float: left;
+                margin: 0px;
+                font-weight: normal;
+                width:78%;
+                padding-left: 5px;
+                padding-top: 3px;
+                cursor: pointer;
+            }
+            .drnam{
+                width: 100%;
+                float: left;
+                font-size: 11pt;
+                font-weight: bold;
+            }
+            .spdata{
+                width: 100%;
+                float: left;
+                font-size: 9pt;
+            }
+            .rohed{}
+            .srbtn{}
+            .rticon{
+                position: absolute;
+                right: 5px;
+                font-size: 15pt;
+                color: #ddd;
+                padding-top: 6px;
+            }
+            .phone{
+                padding: 4px;
+                color: #a71f23;;
+                border: 1px solid #a71f23;;
+                border-radius: 50%;
+                width: 25px;
+                height: 25px;
+            }
+            @media only screen and (max-width:820px){
+                .rightdrdiv{width:560px;}
+                .rightsplictdiv{width:560px;}
+            }
+            @media only screen and (max-width:768px){
+                .rightdrdiv{width:100%;}
+                .rightsplictdiv{width:100%}
+            }
+            @media only screen and (max-width:480px){
+                .logo {width: 100%;height: 60px;}
+                .lblhed{font-size: 12pt;padding: 2px;}
+                .phone {padding: 4px;width: 16px;height: 16px;font-size: 7px;}
+                .lblritd{font-size: 9pt;}
+            }
